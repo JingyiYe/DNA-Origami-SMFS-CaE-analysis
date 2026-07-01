@@ -1,4 +1,4 @@
-# DNA-origami-SMFS-CaE-analysis
+# DNA-Origami-SMFS-CaE-analysis
 
 This repository contains custom analysis code associated with the protocol:
 
@@ -9,28 +9,24 @@ The code supports optical-tweezers trace processing, passive-mode segmentation, 
 ## Repository contents
 
 ```text
-DNA-origami-SMFS-CaE-analysis/
+DNA-Origami-SMFS-CaE-analysis/
 ├── README.md
 ├── LICENSE
 ├── environment.yml
 ├── requirements.txt
 ├── matlab/
 │   └── passive_hmm/
+│       ├── README.md
 │       ├── hires_passive_processing.m
 │       ├── hires_passive_split.m
 │       ├── isomerization_split.m
 │       └── pyHMM_oneMolecule.m
-├── AF-Cluster_notebooks/
+├── AF-Cluster_notebook/
 │   ├── README.md
 │   └── AFcluster.ipynb
-├── python/
-│   └── AFcluster_postprocess.py
-├── docs/
-│   └── software_usage_instructions.md
-├── example_data/
-│   └── README.md
-└── legacy/
-    └── LA_pyHMM_oneConstruct.m
+└── python/
+    ├── README.md
+    └── AFcluster_postprocess.py
 ```
 
 ## Code modules
@@ -41,16 +37,16 @@ The MATLAB scripts in `matlab/passive_hmm/` are used for selecting passive-mode 
 
 Main scripts:
 
-- `LA_hires_passive_processing.m`
-- `LA_hires_passive_split.m`
+- `hires_passive_processing.m`
+- `hires_passive_split.m`
 - `isomerization_split.m`
-- `LA_pyHMM_oneMolecule.m`
+- `pyHMM_oneMolecule.m`
 
-The script `LA_pyHMM_oneConstruct.m` is provided only as a legacy script and is not used for the DNA origami-handle datasets because its implementation assumes WLC handles.
+The script `pyHMM_oneConstruct.m` is provided only as a legacy script and is not used for the DNA origami-handle datasets because its implementation assumes WLC handles.
 
 ### 2. AF-Cluster conformational-ensemble analysis
 
-The notebook `AF-Cluster_notebooks/AFcluster.ipynb` is a modified AF-Cluster notebook used for DBSCAN-based MSA clustering and AlphaFold2 ensemble generation.
+The notebook `AF-Cluster_notebook/AFcluster.ipynb` is a modified AF-Cluster notebook used for DBSCAN-based MSA clustering and AlphaFold2 ensemble generation.
 
 The analysis used in the protocol applies:
 
@@ -61,7 +57,7 @@ The analysis used in the protocol applies:
 
 ### 3. AF-Cluster post-processing
 
-The Python script `python/afcluster_postprocess.py` is used to calculate:
+The Python script `python/AFcluster_postprocess.py` is used to calculate:
 
 - mean pLDDT values;
 - Cα RMSDs relative to a common reference structure;
@@ -89,8 +85,8 @@ Python dependencies are listed in `requirements.txt`. A conda environment file i
 
 Clone the repository:
 
-    git clone https://github.com/JingyiYe/DNA-origami-SMFS-CaE-analysis.git
-    cd DNA-origami-SMFS-CaE-analysis
+    git clone https://github.com/JingyiYe/DNA-Origami-SMFS-CaE-analysis.git
+    cd DNA-Origami-SMFS-CaE-analysis
 
 Create the Python environment:
 
