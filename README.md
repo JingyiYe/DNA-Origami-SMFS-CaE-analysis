@@ -129,7 +129,7 @@ The scripts generate:
 
 A representative runnable example, including example input files, expected outputs and execution instructions, is deposited in figshare:
 
-**figshare DOI:** TODO_FIGSHARE_DOI
+**figshare DOI:** 10.6084/m9.figshare.32861552
 
 The example is intended to demonstrate the analysis workflow and file formats. It does not include the complete raw optical-tweezers dataset.
 
