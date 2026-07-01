@@ -12,7 +12,6 @@ The code supports optical-tweezers trace processing, passive-mode segmentation, 
 DNA-origami-SMFS-CaE-analysis/
 ├── README.md
 ├── LICENSE
-├── CITATION.cff
 ├── environment.yml
 ├── requirements.txt
 ├── matlab/
