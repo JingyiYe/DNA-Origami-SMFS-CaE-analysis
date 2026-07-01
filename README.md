@@ -101,7 +101,7 @@ Alternatively, install the Python dependencies using:
 
     pip install -r requirements.txt
 
-MATLAB scripts can be run directly after adding `matlab/passive_hmm/` and its supporting functions to the MATLAB path.
+This environment supports the Python-based HMM fitting interface and AF-Cluster post-processing scripts. MATLAB, LabVIEW, ChimeraX, ProteinTools, ColabFold and MMseqs2 should be installed or accessed separately as described in the protocol and documentation.
 
 ## Input files
 
