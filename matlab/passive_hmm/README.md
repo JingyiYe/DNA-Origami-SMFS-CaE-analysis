@@ -45,8 +45,8 @@ These scripts call additional helper functions that should be available on the M
 
 ```text
 FilterAndDecimate
-pyHMM2
-hmm_lifetimes_n_v2
+LA_pyHMM2
+LA_hmm_lifetimes_n_v2
 ```
 
 Users should place the required helper functions in the same folder or add their location to the MATLAB path before running the analysis.
