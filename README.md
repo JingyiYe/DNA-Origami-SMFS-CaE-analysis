@@ -99,32 +99,6 @@ Alternatively, install the Python dependencies using:
 
 This environment supports the Python-based HMM fitting interface and AF-Cluster post-processing scripts. MATLAB, LabVIEW, ChimeraX, ProteinTools, ColabFold and MMseqs2 should be installed or accessed separately as described in the protocol and documentation.
 
-## Input files
-
-Expected input files include:
-
-1. passive-mode optical-tweezers force-time traces exported from the acquisition software;
-2. segmented passive-mode regions for HMM analysis;
-3. AF-Cluster-generated PDB files;
-4. AlphaFold2 or AF-Cluster prediction metadata;
-5. a reference PDB structure for Cα RMSD calculation.
-
-Detailed input-file formats are described in `docs/software_usage_instructions.md`.
-
-## Output files
-
-The scripts generate:
-
-1. HMM state assignments;
-2. dwell-time distributions;
-3. transition-rate tables;
-4. contour-length analysis tables;
-5. Cα RMSD tables;
-6. pairwise Cα–Cα distance matrices;
-7. PCA coordinates;
-8. figure-source-data tables;
-9. diagnostic plots.
-
 ## Runnable example
 
 A representative AF-Cluster example dataset, including CaE input files, AF-Cluster/ColabFold output files and execution instructions, is deposited in figshare:
