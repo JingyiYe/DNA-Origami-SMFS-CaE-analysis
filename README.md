@@ -16,15 +16,14 @@ DNA-origami-SMFS-CaE-analysis/
 ├── requirements.txt
 ├── matlab/
 │   └── passive_hmm/
-│       ├── LA_hires_passive_processing.m
-│       ├── LA_hires_passive_split.m
+│       ├── hires_passive_processing.m
+│       ├── hires_passive_split.m
 │       ├── isomerization_split.m
-│       ├── LA_pyHMM_oneMolecule.m
-│       └── supporting_functions/
+│       └── pyHMM_oneMolecule.m
 ├── notebooks/
-│   └── AFcluster_CC.ipynb
+│   └── AFcluster.ipynb
 ├── python/
-│   └── afcluster_postprocess.py
+│   └── AFcluster_postprocess.py
 ├── docs/
 │   └── software_usage_instructions.md
 ├── example_data/
