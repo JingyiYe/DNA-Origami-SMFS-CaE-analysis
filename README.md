@@ -129,7 +129,7 @@ The scripts generate:
 
 A representative AF-Cluster example dataset, including CaE input files, AF-Cluster/ColabFold output files and execution instructions, is deposited in figshare:
 
-**figshare DOI:** 10.6084/m9.figshare.32861552
+**figshare DOI:** [10.6084/m9.figshare.32861552](https://doi.org/10.6084/m9.figshare.32861552)
 
 The example is intended to demonstrate the analysis workflow and file formats. It does not include the complete raw optical-tweezers dataset.
 
