@@ -20,7 +20,8 @@ DNA-origami-SMFS-CaE-analysis/
 │       ├── hires_passive_split.m
 │       ├── isomerization_split.m
 │       └── pyHMM_oneMolecule.m
-├── notebooks/
+├── AF-Cluster_notebooks/
+│   ├── README.md
 │   └── AFcluster.ipynb
 ├── python/
 │   └── AFcluster_postprocess.py
@@ -49,7 +50,7 @@ The script `LA_pyHMM_oneConstruct.m` is provided only as a legacy script and is 
 
 ### 2. AF-Cluster conformational-ensemble analysis
 
-The notebook `notebooks/AFcluster_CC.ipynb` is a modified AF-Cluster notebook used for DBSCAN-based MSA clustering and AlphaFold2 ensemble generation.
+The notebook `AF-Cluster_notebooks/AFcluster.ipynb` is a modified AF-Cluster notebook used for DBSCAN-based MSA clustering and AlphaFold2 ensemble generation.
 
 The analysis used in the protocol applies:
 
