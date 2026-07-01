@@ -140,9 +140,8 @@ The example is intended to demonstrate the analysis workflow and file formats. I
 
 ## Version
 
-The analyses described in the protocol correspond to:
+The analyses described in the protocol correspond to the following GitHub commit:
 
-**GitHub release:** TODO_RELEASE_VERSION  
 **Commit:** TODO_FULL_COMMIT_HASH
 
 ## License
