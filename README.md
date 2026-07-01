@@ -127,7 +127,7 @@ The scripts generate:
 
 ## Runnable example
 
-A representative runnable example, including example input files, expected outputs and execution instructions, is deposited in figshare:
+A representative AF-Cluster example dataset, including CaE input files, AF-Cluster/ColabFold output files and execution instructions, is deposited in figshare:
 
 **figshare DOI:** 10.6084/m9.figshare.32861552
 
