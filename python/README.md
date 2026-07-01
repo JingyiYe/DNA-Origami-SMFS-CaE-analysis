@@ -42,7 +42,7 @@ The downstream results should be interpreted together with experimental contour-
 The modified AF-Cluster notebook is located in:
 
 ```text
-AF-cluster_notebook/AFcluster.ipynb
+AF-Cluster_notebook/AFcluster.ipynb
 ```
 
 The passive-mode HMM analysis scripts are located in:
