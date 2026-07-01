@@ -133,12 +133,6 @@ A representative AF-Cluster example dataset, including CaE input files, AF-Clust
 
 The example is intended to demonstrate the analysis workflow and file formats. It does not include the complete raw optical-tweezers dataset.
 
-## Version
-
-The analyses described in the protocol correspond to the following GitHub commit:
-
-**Commit:** TODO_FULL_COMMIT_HASH
-
 ## License
 
 This repository is released under the **MIT License**.
