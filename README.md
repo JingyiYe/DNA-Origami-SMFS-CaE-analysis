@@ -70,14 +70,14 @@ The Python script `python/AFcluster_postprocess.py` is used to calculate:
 
 The analysis was developed and tested using the following software environment:
 
-- MATLAB R2018a or later
-- Python 3.8 or later
-- hmmlearn 0.2.7 or later
-- ColabFold 1.5.2 or later
+- MATLAB R2018a
+- Python 3.8
+- hmmlearn 0.2.7
+- ColabFold 1.5.2
 - MMseqs2
-- MDTraj 1.9.9 or later
-- scikit-learn 1.2.2 or later
-- ChimeraX 1.7 or later
+- MDTraj 1.9.9
+- scikit-learn 1.2.2
+- ChimeraX 1.7
 
 Python dependencies are listed in `requirements.txt`. A conda environment file is provided as `environment.yml`.
 
